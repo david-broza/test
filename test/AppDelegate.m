@@ -17,6 +17,7 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
     return YES;
+    /* merge test*/
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
